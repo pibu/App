@@ -1,0 +1,10 @@
+﻿<div>
+    <p>Lista PuCo</p>
+    <ul class="ComPointGroups-thumbs">
+        <li ng-repeat="ComPoint in ComPointGroups">
+            <!--<a href="#/ListaAzioni/{{ComPoint.CommunicationPointGroupId}}" class="thumb"><img ng-src="{{ComPoint.ImmagineGruppoPuntiComunicazione}}"></a>-->
+            <img ng-src="{{ComPoint.ImmagineGruppoPuntiComunicazione}}" ng-click="SelGroup(ComPoint.CommunicationPointGroupId)">
+            <h6>{{ComPoint.NomeGruppoPuntiComunicazione}}</h6>
+        </li>
+    </ul>
+</div>

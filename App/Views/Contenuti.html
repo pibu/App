@@ -1,0 +1,10 @@
+﻿<div>
+    <p>Contenuti</p>
+    <ul class="Contents-thumbs">
+        <li ng-repeat="Content in Contents">
+           <span>{{Content.NomeContenuto}}</span>
+            <button ng-click="Delete(Content.IdContenuto,$index)">Elimina</button>
+        </li>
+    </ul>
+</div>
+ 

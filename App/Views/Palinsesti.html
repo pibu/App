@@ -1,0 +1,9 @@
+﻿<div>
+    <p>palinsesti</p>
+    <ul class="UserAction-thumbs">
+        <li ng-repeat="UserAction in UserActions">
+            <img ng-src="{{UserAction.ImmagineUserAction}}" ng-click="SelAction(UserAction.PercorsoDiLavoroUserAction)">
+            <h4>{{UserAction.NomeAzione}}</h4>
+        </li>
+    </ul>
+</div> 

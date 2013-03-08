@@ -1,0 +1,21 @@
+﻿ul.ComPointGroups-thumbs {
+  margin: 0;
+  list-style: none;
+}
+
+ul.ComPointGroups-thumbs li {
+  border: 1px solid black;
+  display: inline-block;
+  margin: 1em;
+  background-color: white;
+}
+
+ul.ComPointGroups-thumbs img {
+  height: 100px;
+  width: 100px;
+  padding: 1em;
+}
+
+ul.ComPointGroups-thumbs img:hover {
+  cursor: pointer;
+}
