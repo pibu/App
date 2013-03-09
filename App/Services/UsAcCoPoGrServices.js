@@ -1,7 +1,7 @@
 ﻿angular.module('UsAcCoPoGrServices', []).
     service('UsAcCoPoGrService', function ($http, $location)
     {
-        var UsAcCoPoGroups=new Array;
+        var UsAcCoPoGroups= new Array;
         var ComPointGroups = new Array;
         var UserActions = new Array;
 
